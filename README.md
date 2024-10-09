@@ -1,4 +1,4 @@
-### Documentation Générale
+# Documentation Générale
 
 ## 1. Présentation du contexte
 
@@ -8,8 +8,8 @@ L’époque actuelle laisse la part belle aux cyberattaques en tous genres et la
 
 ## 2. Présentation des objectifs
 
-- **Objectif principal** : Effectuer une attaque par dictionnaire pour tester la robustesse du mot de passe d’un fichier zip chiffré sur un serveur.
-- **Objectif secondaire** : Effectuer une attaque sur un compte local du serveur.
+- *Objectif principal* : Effectuer une attaque par dictionnaire pour tester la robustesse du mot de passe d’un fichier zip chiffré sur un serveur.
+- *Objectif secondaire* : Effectuer une attaque sur un compte local du serveur.
 
 **Client** : Ubuntu 22.04/24.04 LTS  
 **Serveur** : Windows Server 2022
@@ -23,10 +23,10 @@ Notre organisation se basait sur une planification de sprint d’une semaine, du
 - **Scrum Master** : Il facilite le processus SCRUM en aidant à identifier et éliminer les obstacles, afin de maintenir la productivité de l’équipe. Il anime tous les matins les *daily*, qui permettent à chacun de s’exprimer librement sur des problématiques, l’avancée de leur travail, ou tout autre sujet pertinent dans le cadre du projet. Il anime aussi une rétrospective à la fin de la semaine pour faire un bilan du sprint.
 - **Product Owner** : Il se concentre sur la gestion du contenu produit. Il priorise les besoins du client et décide des nouvelles fonctionnalités à développer par sprint. C’est lui qui remplit le *Trello* par sprint et affecte les différents tickets.
 
-# Membres de l’équipe :
+### Membres de l’équipe :
 
-- **Julien Normand** : Semaine 1 Scrum Master / Semaine 2 Product Owner
-- **Frédérique Druet** : Semaine 1 Product Owner / Semaine 2 Scrum Master
+- *Julien Normand* : Semaine 1 Scrum Master / Semaine 2 Product Owner
+- *Frédérique Druet* : Semaine 1 Product Owner / Semaine 2 Scrum Master
 
 
 ## Choix techniques : présentation des outils et logiciels, systèmes d'exploitation, versions
