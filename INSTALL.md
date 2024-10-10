@@ -1,6 +1,9 @@
 # Documentation Administrateur
 
 ## 1. Pré-requis techniques
+Deux machines:
+- Client : Une machine avec un système d'exploitation Ubuntu 22.04/24.04
+- Serveur : Une machine avec un système d'exploitation Windows Server 2022 
 
 ## 2. Etapes d'installation et de configuration 
 
