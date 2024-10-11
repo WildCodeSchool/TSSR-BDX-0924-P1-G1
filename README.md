@@ -31,9 +31,9 @@ Notre organisation se basait sur une planification de sprint d’une semaine, du
 
 ## Choix techniques : présentation des outils et logiciels, systèmes d'exploitation, versions
 
-- ### **Jack The Ripper**              
+- ### **John The Ripper**              
 JTR ou John est un logiciel libre de cassage de mot de passe, utilisé notamment pour tester la sécurité d’un mot de passe. C’est l’un des logiciel de cassage de mot de passe les plus populaires car il inclut l’autodétection des fonctions de hachage utilisées pour stocker des mots de passe, l’implémentation d’un grand nombre d’algorithmes de cassage.            
-John dispose de plusieurs modes d'actions, le mode simple, l'attaque par dictionnaire, le mode incrémental.
+John dispose de plusieurs modes d'actions, le mode simple, l'attaque par dictionnaire, le mode incrémental.               
 **Mode simple** : John effectue quelques transformations sur le nom d'utilisateur, pour casser les mots de passe les plus faibles. Pour l'utilisateur toto, il essayerait "ToTo, toto123, ToTo123, etc.". Ce mode est le plus rapide à effectuer, un mot de passe qui serait cassé par cette méthode serait un mauvais mot de passe.          
 **Attaque par dictionnaire** : John essaye un à un tous les mots d'une liste de mots de passe potentiels, en leur appliquant les mêmes transformations que dans le mode précédent.
 Exemple du dictionnaire **Rock You** :               
