@@ -63,3 +63,8 @@ Certaines des versions sont qualifiées de LTS (*long terme support*), ce qui si
 ## Axes d'améliorations
 
 ## Conclusion
+
+
+![Tableau](tableau time.jpg.png)
+
+
