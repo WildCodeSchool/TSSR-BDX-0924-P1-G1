@@ -65,7 +65,7 @@ Certaines des versions sont qualifiées de LTS (*long terme support*), ce qui si
 ## Conclusion
 
 
-![Tableau](https://github.com/WildCodeSchool/TSSR-BDX-0924-P1-G1/blob/main/IMG_README/tableau_time.jpg)
+<P ALIGN="center"><IMG src="https://github.com/WildCodeSchool/TSSR-BDX-0924-P1-G1/blob/main/IMG_README/tableau_time.jpg" width=800></P>  
 
 
 
