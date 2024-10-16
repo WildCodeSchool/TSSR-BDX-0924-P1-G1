@@ -23,7 +23,7 @@ Deux machines:
    Vous pourrez ajouter plusieurs détails sur l'utilisateur, sinon appuyez sur entrée plusieurs fois, et confirmez en tapant "O".              
    Fermer le terminal et fermer la session d'ubuntu.
                     
-   <P ALIGN="center"><IMG src="https://github.com/WildCodeSchool/TSSR-BDX-0924-P1-G1/blob/main/IMG_INSTALL/Capture%20d'%C3%A9cran%202024-10-16%20151234.png" width=600></P>                                 
+   <P ALIGN="center"><IMG src="https://github.com/WildCodeSchool/TSSR-BDX-0924-P1-G1/blob/main/IMG_INSTALL/install_adduser.png" width=600></P>                                 
    Se reconnecter avec le nouvel utilisateur wilder et son mot de passe.                                  
    Ouvrir votre terminal.
                                                                       
