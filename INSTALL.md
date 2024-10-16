@@ -14,18 +14,23 @@ Deux machines:
          hostnamectl set-hostname CLININ01
 
 2) Créer un nouvel utilisateur
+   
          sudo su             
-   Rentrer mot de passe de l'utilisateur actuel, puis :                                      
+   Rentrer mot de passe de l'utilisateur actuel, puis :
+                                        
          adduser wilder               
    Rentrer le nouveau mot de passe du nouvel utilisateur puis le confirmer et appuyer sur entrée.                                     
    Vous pourrez ajouter plusieurs détails sur l'utilisateur, sinon appuyez sur entrée plusieurs fois, et confirmez en tapant "O".              
-   Fermer le terminal et fermer la session d'ubuntu.                    
-   *capture d'écran*                                   
+   Fermer le terminal et fermer la session d'ubuntu.
+                    
+   <P ALIGN="center"><IMG src="https://github.com/WildCodeSchool/TSSR-BDX-0924-P1-G1/blob/main/IMG_INSTALL/Capture%20d'%C3%A9cran%202024-10-16%20151234.png" width=600></P>                                 
    Se reconnecter avec le nouvel utilisateur wilder et son mot de passe.                                  
-   Ouvrir votre terminal.                                                                     
+   Ouvrir votre terminal.
+                                                                      
             sudo su                                    
    Entrer le mot de passe de wilder.                                   
-   Supprimer l'ancien utilisateur                                                                          
+   Supprimer l'ancien utilisateur
+                                                                       
             deluser ancien_utilisateur
 
 4) Changer le mot de passe utilisateur
