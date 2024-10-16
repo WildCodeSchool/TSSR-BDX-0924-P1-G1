@@ -11,41 +11,40 @@ Deux machines:
 Configuration poste client Ubuntu :
 1) Changer le nom de votre hôte
    
-       hostnamectl set-hostname CLININ01
+         hostnamectl set-hostname CLININ01
 
 2) Créer un nouvel utilisateur
-       sudo su             
-   Rentrer mot de passe de l'utilisateur actuel, puis :              
-       adduser wilder               
-   Rentrer le nouveau mot de passe du nouvel utilisateur puis le confirmer et appuyer sur entrée.             
-   Vous pourrez ajouter plusieurs détails sur l'utilisateur, sinon appuyez sur entrée plusieurs fois, et confirmez en tapant "O".
-   Fermer le terminal et fermer la session d'ubuntu.
-   *capture d'écran*
-   Se reconnecter avec le nouvel utilisateur wilder et son ùmot de passe.
-   Ouvrir votre terminal.
-       sudo su
-   Entrer le mot de passe de wilder.
-   Supprimer l'ancien utilisateur
+         sudo su             
+   Rentrer mot de passe de l'utilisateur actuel, puis :                                      
+         adduser wilder               
+   Rentrer le nouveau mot de passe du nouvel utilisateur puis le confirmer et appuyer sur entrée.                                     
+   Vous pourrez ajouter plusieurs détails sur l'utilisateur, sinon appuyez sur entrée plusieurs fois, et confirmez en tapant "O".              
+   Fermer le terminal et fermer la session d'ubuntu.                    
+   *capture d'écran*                                   
+   Se reconnecter avec le nouvel utilisateur wilder et son mot de passe.                                  
+   Ouvrir votre terminal.                                               
+       sudo su                                    
+   Entrer le mot de passe de wilder.                                   
+   Supprimer l'ancien utilisateur                                         
        deluser ancien_utilisateur
    
-     
- 
-4)  
+      
 
-Configuration poste serveur Windows :
+Configuration poste serveur Windows :                       
 
-1) Changer nom du serveur :
-Aller dans Settings ---> puis About  ---> cliquez sur Rename this PC
+1) Changer nom du serveur :                                
+Aller dans Settings ---> puis About  ---> cliquez sur Rename this PC                                     
    *Capture d'écran*
+   <P ALIGN="center"><IMG src="https://github.com/WildCodeSchool/TSSR-BDX-0924-P1-G1/blob/main/IMG_USERGUIDE/screen3.png" width=600></P>
 
-2) Changer nom de l'hôte
+3) Changer nom de l'hôte
 Aller dans Panneau de configuration : Control panel ---> System and Security ---> Administrative Tools ---> Computer Management            
 *Capture d'écran*
 Dérouler l'onglet Local Users and Groups puis cliquez sur Users.                                   
 Clic droit sur le compte que vous souhaitez renommer puis cliquez sur Rename.                                  
 *Capture d'écran*
 
-3) Changer le mot de passe utilisateur
+4) Changer le mot de passe utilisateur
 
    
 
