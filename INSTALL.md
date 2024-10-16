@@ -8,7 +8,7 @@ Deux machines:
 ## 2. Etapes d'installation et de configuration 
 
 ### Installation des postes serveur et client
-Configuration poste client Ubuntu :
+**Configuration poste client Ubuntu :**
 1) Changer le nom de votre hôte
    
          hostnamectl set-hostname CLININ01
@@ -22,16 +22,16 @@ Configuration poste client Ubuntu :
    Fermer le terminal et fermer la session d'ubuntu.                    
    *capture d'écran*                                   
    Se reconnecter avec le nouvel utilisateur wilder et son mot de passe.                                  
-   Ouvrir votre terminal.                                               
-       sudo su                                    
+   Ouvrir votre terminal.                                                                     
+            sudo su                                    
    Entrer le mot de passe de wilder.                                   
-   Supprimer l'ancien utilisateur                                         
-       deluser ancien_utilisateur
+   Supprimer l'ancien utilisateur                                                                          
+            deluser ancien_utilisateur
 
-3) Changer le mot de passe utilisateur
+4) Changer le mot de passe utilisateur
       
 
-Configuration poste serveur Windows :                       
+**Configuration poste serveur Windows :**                       
 
 1) Changer nom du serveur :                                
 Aller dans Settings ---> puis About  ---> cliquez sur Rename this PC                                     
@@ -59,7 +59,10 @@ Rentrer votre nouveau mot de passe puis cliquez sur OK.
 
 <P ALIGN="center"><IMG src="https://github.com/WildCodeSchool/TSSR-BDX-0924-P1-G1/blob/main/IMG_INSTALL/Capture%20d'%C3%A9cran%202024-10-16%20161409.png" width=600></P>
 
+
 ### Lier serveur et client 
+
+
 
 ### Installation du logiciel John The Ripper
 
@@ -70,7 +73,7 @@ Rentrer votre nouveau mot de passe puis cliquez sur OK.
 
    Le terminal vous renvoie la commande a exécuter pour l’installer s’il n’est pas déjà présent sur votre système.
 
-**Etape 2. Mettre à jour le système**
+**Etape 2. Mettre à jour le système**                                          
    Avant d'installer quoi que ce soit, il est toujours conseillé de mettre à jour votre système pour s'assurer que vous avez les derniers paquets disponibles. Tapez la commande : 
    
       sudo apt update
