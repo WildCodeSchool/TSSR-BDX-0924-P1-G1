@@ -17,7 +17,7 @@ Vous aurez alors un écran pour y saisir des commandes qui ressemble à ca :
 
 Ensuite il ne vous restera plus qu'à taper les commandes suivantes :  
 
-```zip2john archive.zip```  
+    zip2john archive.zip
 ici nous supposons que votre fichier s'appelle archive.zip, s'il s'agit d'un autre fichier il faudra bien entendu remplacer archive.zip par votre fichier.
 
 
