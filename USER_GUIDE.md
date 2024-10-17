@@ -32,3 +32,7 @@ Une fois cette commande exécutée, il ne vous restera plus qu'à exécuter la c
 ## 2. Utilisation avancée : comment effectuer une attaque sur un compte local du serveur
 
 ## 3. FAQ : Solutions aux problèmes connus et communs liés à l'utilisation
+
+***Question : Après plusieurs minutes/heures, John The Ripper ne trouve toujours pas le mot de passe, comment faire ?***
+
+Réponse : Si l'attaque avec le dictionnaire RockYou ne fonctionne pas, il est toujours possible de télécharger une autre wordlist et relancer une attaque. John The Ripper dispose aussi de trois autres modes d'actions, le mode simple, le mode incrémental et le mode Markov.
