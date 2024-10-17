@@ -64,7 +64,8 @@ Certaines des versions sont qualifiées de LTS (*long terme support*), ce qui si
 
 ## 5. Difficultés rencontrées / Solutions trouvées
 
-
+- Gestion du temps. Nous avons voulu aborder et mieux comprendre le concept du hachage et donc de la sécurisation de mots de passe. C'est un sujet vaste qui nous a conduit à revoir et nous reconcentrer sur notre objectif principal, documenter une attaque par dictionnaire d'un fichier zippé chiffré.                                              
+- Installation et utilisation de John The Ripper. Après plusieurs essais, nous nous sommes appuyés sur la documentation générale et notre curiosité pour mieux comprendre et aborder son utilisation.
 
 ## 6. Axes d'améliorations
 
