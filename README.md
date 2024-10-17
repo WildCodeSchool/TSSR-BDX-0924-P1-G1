@@ -66,7 +66,7 @@ Certaines des versions sont qualifiées de LTS (*long terme support*), ce qui si
 
 
 
-## 6.Axes d'améliorations
+## 6. Axes d'améliorations
 
 Dans cette version 1 de nos livrables, nous nous sommes concentrés sur la documentation pour effectuer une attaque d'un mot de passe d'un fichier zip. Dans une version 2, nous souhaitons aller encore plus loin avec John The Ripper et utiliser un logiciel comme Hashcat pour effectuer une attaque sur un compte local d'un serveur. Nous documenterons l'installation et l'accessibilité utilisateur d'Hashcat.
 
@@ -74,11 +74,11 @@ Dans cette version 1 de nos livrables, nous nous sommes concentrés sur la docum
 
 Un mot de passe, pour protéger un fichier zip par exemple, est hashé par un algorithme plus ou moins puissant. MD5 par exemple, étant un algorithme de hashage plutôt faible, s'il est allié un mot de passe très simple, constitué de peu de caractères, nous permet de conclure qu'il sera découvert en clair par John The Ripper assez rapidemment.
 
-<P ALIGN="center"><IMG src="https://github.com/WildCodeSchool/TSSR-BDX-0924-P1-G1/blob/main/IMG_README/tableau_time.jpg" width=800></P>  
+<P ALIGN="center"><IMG src="https://github.com/WildCodeSchool/TSSR-BDX-0924-P1-G1/blob/main/IMG_README/tableau_time.jpg" width=600></P>  
 
-**BONNES PRATIQUES**            
-1. UTILISEZ UN MÉLANGE DE LETTRES, CHIFFRES ET SYMBOLES                                                      
-Pourquoi c'est important
+**BONNES PRATIQUES**                                 
+UTILISEZ UN MÉLANGE DE LETTRES, CHIFFRES ET SYMBOLES                                                                                                   
+Pourquoi c'est important                               
 Une combinaison variée de caractères rend votre mot de passe beaucoup plus difficile à deviner ou à pirater par des méthodes automatisées. Les cybercriminels utilisent souvent des outils qui génèrent des combinaisons basées sur des mots de passe fréquents, des séquences simples ou des dictionnaires. En incorporant des lettres (majuscules et minuscules), des chiffres et des symboles, vous renforcez la sécurité de votre mot de passe.
                                                    
 **COMMENT PROCÉDER**                                                    
