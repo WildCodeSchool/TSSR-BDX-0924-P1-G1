@@ -131,3 +131,38 @@ Puis ajoutez le fichier téléchargé à votre Dossier personnel.
 <P ALIGN="center"><IMG src="https://github.com/WildCodeSchool/TSSR-BDX-0924-P1-G1/blob/main/IMG_INSTALL/bibli3.jpg" width=600></P>
 
 ## 3. FAQ : solutions aux problèmes connus et communs liés à l'installation et à la configuration
+
+***Question : Mes deux machines ne communiquent pas. Que dois-je faire ?***
+
+Réponse : Pour résoudre ce problème, suivez ces étapes :
+
+- Vérifiez si elles sont sur la même plage d'IP : Assurez-vous que les deux machines sont configurées avec des adresses IP dans la même plage. Vous pouvez le vérifier en exécutant ipconfig sous Windows ou ip a sous Ubuntu pour connaître leur adresse IP actuelle.                                  
+
+- Effectuez un test ping : Utilisez la commande ping suivi de l'adresse IP de l'autre machine pour vérifier s'il y a une réponse. Cela indique si les deux machines peuvent communiquer entre elles.
+
+***Question : Pourquoi l'utilisateur que j'ai créé sur la machine Ubuntu ne peut-il pas utiliser les commandes sudo ?***
+
+Réponse : 
+Si l'utilisateur que vous avez créé sur Ubuntu ne peut pas exécuter de commandes avec sudo, voici quelques étapes pour résoudre ce problème :
+
+Vérifiez si l'utilisateur appartient au groupe sudo :                                            
+Pour qu'un utilisateur puisse utiliser les privilèges administratifs, il doit appartenir au groupe sudo. Vérifiez avec la commande suivante dans votre terminal :                
+
+    groups wilder             
+
+Si le groupe sudo n'apparaît pas, cela signifie que l'utilisateur n'a pas les droits nécessaires.                      
+
+Ajoutez l'utilisateur au groupe sudo :                                       
+Si l'utilisateur n'est pas dans le groupe, vous pouvez l'ajouter en utilisant la commande suivante en tant qu'utilisateur root ou un autre administrateur :                  
+
+    sudo usermod -aG sudo wilder                                             
+
+Déconnectez-vous et reconnectez-vous :                                         
+Après avoir ajouté l'utilisateur au groupe sudo, déconnectez-vous de la session et reconnectez-vous pour que les modifications prennent effet.                            
+
+Vérifiez les permissions sudo :                                    
+Vous pouvez tester en exécutant une commande avec sudo :                                                                        
+
+    sudo apt update                                 
+
+Si l'utilisateur est maintenant dans le groupe sudo, il pourra exécuter cette commande avec succès.
