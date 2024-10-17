@@ -67,7 +67,7 @@ Aller dans Panneau de configuration : Control panel ---> System and Security ---
 Dérouler l'onglet Local Users and Groups puis cliquez sur Users.                                   
 Clic droit sur le compte que vous souhaitez renommer puis cliquez sur **Rename**.                
 
-  <P ALIGN="center"><IMG src="https://github.com/WildCodeSchool/TSSR-BDX-0924-P1-G1/blob/main/IMG_INSTALL/Capture%20d'%C3%A9cran%202024-10-16%20155304.png" width=600></P>
+  <P ALIGN="center"><IMG src="https://github.com/WildCodeSchool/TSSR-BDX-0924-P1-G1/blob/main/IMG_INSTALL/Capture%20d'%C3%A9cran%202024-10-17%20082657.png" width=600></P>
 
 3) Changer le mot de passe utilisateur                                           
 Aller dans Panneau de configuration : Control panel ---> System and Security ---> Administrative Tools ---> Computer Management
@@ -118,6 +118,16 @@ Votre terminal vous confirme bien la version qui vient d’être installée.
 
     sudo apt install ocl-icd-opencl-dev -y
 
-Capture
+<P ALIGN="center"><IMG src="https://github.com/WildCodeSchool/TSSR-BDX-0924-P1-G1/blob/main/IMG_INSTALL/Capture%20d'%C3%A9cran%202024-10-17%20081754.png" width=600></P>
+
+**Etape 6. Télechargement de la wordList Rockyou**
+
+Cliquez sur ce lien pour téléchargement : [RockYou](https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt)
+
+Puis ajoutez le fichier téléchargé à votre Dossier personnel.
+
+<P ALIGN="center"><IMG src="https://github.com/WildCodeSchool/TSSR-BDX-0924-P1-G1/blob/main/IMG_INSTALL/bibli2.jpg" width=600></P>
+
+<P ALIGN="center"><IMG src="https://github.com/WildCodeSchool/TSSR-BDX-0924-P1-G1/blob/main/IMG_INSTALL/bibli3.jpg" width=600></P>
 
 ## 3. FAQ : solutions aux problèmes connus et communs liés à l'installation et à la configuration
