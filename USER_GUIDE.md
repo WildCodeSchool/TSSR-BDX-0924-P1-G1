@@ -35,4 +35,4 @@ Une fois cette commande exécutée, il ne vous restera plus qu'à exécuter la c
 
 ***Question : Après plusieurs minutes/heures, John The Ripper ne trouve toujours pas le mot de passe, comment faire ?***
 
-Réponse : Si l'attaque avec le dictionnaire RockYou ne fonctionne pas, il est toujours possible de télécharger une autre wordlist et relancer une attaque. John The Ripper dispose aussi de trois autres modes d'actions, le mode simple, le mode incrémental et le mode Markov.
+Réponse : Si l'attaque avec le dictionnaire RockYou ne fonctionne pas, il est toujours possible de télécharger une autre wordlist et relancer une attaque. John The Ripper dispose aussi de trois autres modes d'actions, le mode simple, le mode incrémental et le mode Markov. Vous trouverez les principes généraux de leur fonctionnement dans le README.md.
