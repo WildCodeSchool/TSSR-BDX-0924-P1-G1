@@ -8,6 +8,21 @@ Deux machines:
 ## 2. Etapes d'installation et de configuration 
 
 ### Installation des postes serveur et client
+
+**Résumé :**                 
+
+*Client Ubuntu*                   
+- Nom : CLIWIN01
+- Compte utilisateur : wilder
+- Mot de passe : Azerty1*
+- Adresse IP fixe : 172.16.10.20/24
+                                  
+*Serveur Windows*                                      
+- Nom : SERVWIN01
+- Compte utilisateur : Administrator
+- Mot de passe : Azerty1*
+- Adresse IP fixe : 172.16.10.10/24
+
 **Configuration poste client Ubuntu :**
 1) Changer le nom de votre hôte
    
@@ -37,7 +52,7 @@ Deux machines:
 4) Changer le mot de passe utilisateur  
       
 
-**Configuration poste serveur Windows :**                       
+**Configuration poste serveur Windows :**  
 
 1) Changer nom du serveur :                                
 Aller dans Settings ---> puis About  ---> cliquez sur Rename this PC                                     
@@ -90,7 +105,7 @@ Veuillez entrer « O » à la demande de confirmation.
 **Etape 3. Installation de John The Ripper**
 Tapez la commande dans votre terminal : 
 
-    sudo snap install john-the-ripper
+    sudo apt-get install john-the-ripper
 
 **Etape 4. Vérification de la bonne installation**
 Tapez la commande dans votre terminal :
@@ -98,5 +113,11 @@ Tapez la commande dans votre terminal :
     john –version
 
 Votre terminal vous confirme bien la version qui vient d’être installée.
+
+**Etape 5. Installation des librairies de John The Ripper**
+
+    sudo apt install ocl-icd-opencl-dev -y
+
+Capture
 
 ## 3. FAQ : solutions aux problèmes connus et communs liés à l'installation et à la configuration
