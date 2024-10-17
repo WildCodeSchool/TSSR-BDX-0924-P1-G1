@@ -9,8 +9,12 @@ L’époque actuelle laisse la part belle aux cyberattaques en tous genres et la
 
 ## 2. Présentation des objectifs
 
-- *Objectif principal* : Effectuer une attaque par dictionnaire pour tester la robustesse du mot de passe d’un fichier zip chiffré sur un serveur.
-- *Objectif secondaire* : Effectuer une attaque sur un compte local du serveur.
+*Objectif principal* : Effectuer une attaque par dictionnaire pour tester la robustesse du mot de passe d’un fichier zip chiffré sur un serveur.
+Pour se faire, nous avons définis des sous objectifs :                  
+- Comprendre le principe du hachage de mot de passe, veille hachage VS cryptage.
+- Installer John The Ripper sur notre OS Ubuntu
+- Découvrir les capacités de JTR 
+- Interpréter les résultats obtenus et trouver des solutions d'amélioration de la robutesse d'un mot de passe.
 
 **Client** : Ubuntu 22.04/24.04 LTS  
 **Serveur** : Windows Server 2022
@@ -30,7 +34,7 @@ Notre organisation se basait sur une planification de sprint d’une semaine, du
 - *Frédérique Druet* : Semaine 1 Product Owner / Semaine 2 Scrum Master
 
 
-## Choix techniques : présentation des outils et logiciels, systèmes d'exploitation, versions
+## 4. Choix techniques : présentation des outils et logiciels, systèmes d'exploitation, versions
 
 - ### **John The Ripper**
 
@@ -58,15 +62,15 @@ La version inclut une gestion des machines virtuelles améliorée, et des foncti
 Certaines des versions sont qualifiées de LTS (*long terme support*), ce qui signifie qu'elles sont plus particulièrement optimisées, stables, et seront maintenues durant cinq ans.
 
 
-## Difficultés rencontrées / Solutions trouvées
+## 5. Difficultés rencontrées / Solutions trouvées
 
 
 
-## Axes d'améliorations
+## 6.Axes d'améliorations
 
 Dans cette version 1 de nos livrables, nous nous sommes concentrés sur la documentation pour effectuer une attaque d'un mot de passe d'un fichier zip. Dans une version 2, nous souhaitons aller encore plus loin avec John The Ripper et utiliser un logiciel comme Hashcat pour effectuer une attaque sur un compte local d'un serveur. Nous documenterons l'installation et l'accessibilité utilisateur d'Hashcat.
 
-## Conclusion
+## 7. Conclusion
 
 Un mot de passe, pour protéger un fichier zip par exemple, est hashé par un algorithme plus ou moins puissant. MD5 par exemple, étant un algorithme de hashage plutôt faible, s'il est allié un mot de passe très simple, constitué de peu de caractères, nous permet de conclure qu'il sera découvert en clair par John The Ripper assez rapidemment.
 
