@@ -2,9 +2,9 @@
 
 ## 1. Présentation du contexte
 
-Ce projet est le projet 1 dans le cadre de notre formation de Technicien Supérieur Systèmes et Réseaux au sein de la Wild Code School. Dans notre groupe, composé de Julien Normand et Frédrique Druet, nous avons l'objectif de documenter une attaque de mot de passe d'un fichier .zip ainsi que d'un mot de passe d'un compte local d'un serveur. Sujet d'autant plus interéssant car se créer un mot de passe sécurisé, c’est notre première ligne de défense. Les mots faibles et répétitifs sont l’une des principales failles exploitées par les cyber criminels pour accéder à nos données en ligne ou sur nos machines. Nous nous sommes donc penchés sur la problématique de notre client.
+    Ce projet est le projet 1 dans le cadre de notre formation de Technicien Supérieur Systèmes et Réseaux au sein de la Wild Code School. Dans notre groupe, composé de Julien Normand et Frédrique Druet, nous avons l'objectif de documenter une attaque de mot de passe d'un fichier .zip. Sujet d'autant plus interéssant car se créer un mot de passe sécurisé, c’est notre première ligne de défense. Les mots faibles et répétitifs sont l’une des principales failles exploitées par les cyber criminels pour accéder à nos données en ligne ou sur nos machines. Nous nous sommes donc penchés sur la problématique de notre client.
 
-Et si l’on regardait d’où l’on vient, pour analyser votre problématique passée et mieux comprendre l’actuelle. Vos données sur vos machines n’étaient pas forcément archivées et prenaient beaucoup de place sur vos disques durs. Vous avez donc mis en place des fichiers zip afin de les compresser et qu’elles deviennent moins invasives sur vos disques.  
+    Et si l’on regardait d’où l’on vient, pour analyser votre problématique passée et mieux comprendre l’actuelle. Vos données sur vos machines n’étaient pas forcément archivées et prenaient beaucoup de place sur vos disques durs. Vous avez donc mis en place des fichiers zip afin de les compresser et qu’elles deviennent moins invasives sur vos disques.  
 L’époque actuelle laisse la part belle aux cyberattaques en tous genres et la priorité devient de sécuriser les données de votre entreprise stockées dans ces dossiers zip. L’opportunité de mettre en place un mot de passe sur ces dossiers permet une meilleure sécurisation des données, mais la robustesse de ce mot de passe est primordiale pour éviter toute fuite.
 
 ## 2. Présentation des objectifs
@@ -40,6 +40,7 @@ Notre organisation se basait sur une planification de sprint d’une semaine, du
 
 JTR ou John est un logiciel libre de cassage de mot de passe, utilisé notamment pour tester la sécurité d’un mot de passe. C’est l’un des logiciel de cassage de mot de passe les plus populaires car il inclut l’autodétection des fonctions de hachage utilisées pour stocker des mots de passe, l’implémentation d’un grand nombre d’algorithmes de cassage.            
 John dispose de plusieurs modes d'actions, le mode simple, l'attaque par dictionnaire, le mode incrémental.  
+Vous trouverez ici le lien de sa page [Wikipédia](https://fr.wikipedia.org/wiki/John_the_Ripper)                              
 
 **Mode simple** : John effectue quelques transformations sur le nom d'utilisateur, pour casser les mots de passe les plus faibles. Pour l'utilisateur toto, il essayerait "ToTo, toto123, ToTo123, etc.". Ce mode est le plus rapide à effectuer, un mot de passe qui serait cassé par cette méthode serait un mauvais mot de passe.  
 
