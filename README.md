@@ -72,11 +72,12 @@ Un mot de passe, pour protéger un fichier zip par exemple, est hashé par un al
 
 <P ALIGN="center"><IMG src="https://github.com/WildCodeSchool/TSSR-BDX-0924-P1-G1/blob/main/IMG_README/tableau_time.jpg" width=800></P>  
 
-**BONNES PRATIQUES**
-1. UTILISEZ UN MÉLANGE DE LETTRES, CHIFFRES ET SYMBOLES
+**BONNES PRATIQUES**            
+1. UTILISEZ UN MÉLANGE DE LETTRES, CHIFFRES ET SYMBOLES                                                      
 Pourquoi c'est important
 Une combinaison variée de caractères rend votre mot de passe beaucoup plus difficile à deviner ou à pirater par des méthodes automatisées. Les cybercriminels utilisent souvent des outils qui génèrent des combinaisons basées sur des mots de passe fréquents, des séquences simples ou des dictionnaires. En incorporant des lettres (majuscules et minuscules), des chiffres et des symboles, vous renforcez la sécurité de votre mot de passe.
-**COMMENT PROCÉDER**
+                                                   
+**COMMENT PROCÉDER**                                                    
 1.	Créez des mots de passe robustes
 Assurez-vous que chaque mot de passe inclut une combinaison aléatoire de majuscules (A-Z), de minuscules (a-z), de chiffres (0-9) et de symboles spéciaux (comme !, @, #, $, etc.). Évitez les séquences prévisibles et les mots entiers.
 2.	Optez pour des mots de passe d’au moins 12 caractères
