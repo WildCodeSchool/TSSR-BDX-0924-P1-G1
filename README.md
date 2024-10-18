@@ -2,16 +2,16 @@
 
 ## 1. Présentation du contexte
 
-Ce projet est le projet 1 dans le cadre de notre formation de Technicien Supérieur Systèmes et Réseaux au sein de la Wild Code School. Dans notre groupe, composé de Julien Normand et Frédérique Druet, nous avons l'objectif de documenter une attaque de mot de passe d'un fichier .zip. Sujet d'autant plus interéssant car se créer un mot de passe sécurisé, c’est notre première ligne de défense. Les mots faibles et répétitifs sont l’une des principales failles exploitées par les cyber criminels pour accéder à nos données en ligne ou sur nos machines. Nous nous sommes donc penchés sur la problématique de notre client.
+Ce projet est le projet 1 dans le cadre de notre formation de Technicien Supérieur Systèmes et Réseaux au sein de la Wild Code School. Dans notre groupe, composé de Julien Normand et Frédérique Druet, nous avons l'objectif de documenter une attaque de mot de passe d'un fichier .zip. Sujet d'autant plus interéssant car se créer un mot de passe sécurisé, c’est notre première ligne de défense. Les mots faibles et répétitifs sont l’une des principales failles exploitées par les cyber criminels pour accéder à nos données en ligne ou sur nos machines. Nous nous sommes donc penchés sur l'objectif de notre client.
 
-Et si l’on regardait d’où l’on vient, pour analyser votre problématique passée et mieux comprendre l’actuelle. Vos données sur vos machines n’étaient pas forcément archivées et prenaient beaucoup de place sur vos disques durs. Vous avez donc mis en place des fichiers zip afin de les compresser et qu’elles deviennent moins invasives sur vos disques.  
+Et si l’on regardait d’où l’on vient, pour analyser votre problématique passée et mieux comprendre l’actuelle. Vos données sur vos machines n’étaient pas forcément archivées et prenaient beaucoup de place sur vos disques durs. Vous avez donc mis en place des fichiers zip afin de compresser ces données et qu’elles deviennent moins invasives sur vos disques.  
 L’époque actuelle laisse la part belle aux cyberattaques en tous genres et la priorité devient de sécuriser les données de votre entreprise stockées dans ces dossiers zip. L’opportunité de mettre en place un mot de passe sur ces dossiers permet une meilleure sécurisation des données, mais la robustesse de ce mot de passe est primordiale pour éviter toute fuite.
 
 ## 2. Présentation des objectifs
 
 *Objectif principal* : Effectuer une attaque par dictionnaire pour tester la robustesse du mot de passe d’un fichier zip chiffré sur un serveur.
 Pour se faire, nous avons définis des sous objectifs :                  
-- Comprendre le principe du hachage de mot de passe, veille hachage VS cryptage.
+- Comprendre le principe du hachage de mot de passe
 - Installer John The Ripper sur notre OS Ubuntu
 - Découvrir les capacités de JTR 
 - Interpréter les résultats obtenus et trouver des solutions d'amélioration de la robutesse d'un mot de passe.
