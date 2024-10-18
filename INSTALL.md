@@ -105,7 +105,11 @@ Veuillez entrer « O » à la demande de confirmation.
 **Etape 3. Installation de John The Ripper**
 Tapez la commande dans votre terminal : 
 
-    sudo apt-get install john-the-ripper
+    sudo apt-get install john-the-ripper  
+
+Création d'un alias pour la commande zip2john :   
+
+    sudo snap alias john-the-ripper.zip2john zip2john
 
 **Etape 4. Vérification de la bonne installation**
 Tapez la commande dans votre terminal :
