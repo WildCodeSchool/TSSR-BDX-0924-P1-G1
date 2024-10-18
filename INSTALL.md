@@ -102,7 +102,7 @@ Rentrer votre nouveau mot de passe puis cliquez sur OK.
   
 Veuillez entrer « O » à la demande de confirmation.
 
-**Etape 3. Installation de John The Ripper**
+**Etape 3. Installation de John The Ripper**  
 Tapez la commande dans votre terminal : 
 
     sudo apt-get install john-the-ripper  
