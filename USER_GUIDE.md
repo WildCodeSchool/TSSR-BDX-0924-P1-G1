@@ -32,19 +32,12 @@ Pour ensuite afficher le mot de passe il ne vous restera plus qu'à
 
 #### Autre méthode alternative, l'attaque en brute force  
 
-  Cette méthode peut prendre un certain temps en fontion de la complexité du mot de passe, elle peut même prendre plusieurs jours. Si le processus est trp long vous porrez l'arrêter en utilisant `CTRL`+`C`
 L'**attaque par dictionnaire** est simple et rapide mais elle présente un gros inconvénient : elle n'aboutira au mot de passe que si que si celui-ci est présent dans la liste qu'on lui a fourni.  
 Pour être certain d'aboutir à un résultat et donc de découvrir le mot de passe il existe une autre méthode qui consiste à utiliser toutes les combinaisons possibles de caractères. Cette méthode est appelée attaque en **"brute force"**. Cette methode est plus longue car elle essaie absolument toutes les combinaisons et pas seulement celles d'une liste, mais elle est aussi à l'inverse sûre d'aboutir.  
-Cette attaque commence en général par un seul caractère, puis 2 puis 3 etc. Elle va utiliser d'abord les chiffres, puis les lettres minuscules puis les 2, puis les majuscules etc.
-Donc un mot de passe composé que de chiffres ne prendra que quelques secondes à déchiffer avec l'attaque en brute force, à l'inverse un mot de passe composé de minuscules, de majuscules, de chiffres, de caractères spéciaux sera bien plus long à déchiffer par l'attaquant.
+Elle peut être cependant très longue, tellement que certaines fois il vous faudra la stopper à l'aide des commandes `CTRL` + `C`.
 
 
-
-
-
-## 2. Utilisation avancée : comment effectuer une attaque sur un compte local du serveur
-
-## 3. FAQ : Solutions aux problèmes connus et communs liés à l'utilisation
+## 2. FAQ : Solutions aux problèmes connus et communs liés à l'utilisation
 
 ***Question : Après plusieurs minutes/heures, John The Ripper ne trouve toujours pas le mot de passe, comment faire ?***
 
