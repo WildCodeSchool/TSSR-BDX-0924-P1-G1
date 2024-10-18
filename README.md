@@ -38,7 +38,7 @@ Notre organisation se basait sur une planification de sprint d’une semaine, du
 
 - ### **John The Ripper**
 
-JTR ou John est un logiciel libre de cassage de mot de passe, utilisé notamment pour tester la sécurité d’un mot de passe. C’est l’un des logiciel de cassage de mot de passe les plus populaires car il inclut l’autodétection des fonctions de hachage utilisées pour stocker des mots de passe, l’implémentation d’un grand nombre d’algorithmes de cassage.            
+JTR ou John est un logiciel libre de cassage de mot de passe, utilisé notamment pour tester la sécurité d’un mot de passe. C’est l’un des logiciels de cassage de mot de passe les plus populaires car il inclut l’autodétection des fonctions de hachage utilisées pour stocker des mots de passe, l’implémentation d’un grand nombre d’algorithmes de cassage.            
 John dispose de plusieurs modes d'actions, le mode simple, l'attaque par dictionnaire, le mode incrémental.  
 Vous trouverez ici le lien de sa page [Wikipédia](https://fr.wikipedia.org/wiki/John_the_Ripper)                              
 
@@ -65,7 +65,7 @@ Certaines des versions sont qualifiées de LTS (*long terme support*), ce qui si
 
 ## 5. Difficultés rencontrées / Solutions trouvées
 
-- Gestion du temps. Nous avons voulu aborder et mieux comprendre le concept du hachage et donc de la sécurisation de mots de passe. C'est un sujet vaste qui nous a conduit à revoir et nous reconcentrer sur notre objectif principal, documenter une attaque par dictionnaire d'un fichier zippé chiffré.                                              
+- Gestion du temps. Nous avons voulu aborder et mieux comprendre le concept du hachage et donc de la sécurisation de mots de passe. C'est un sujet vaste qui nous a conduit à revoir et à nous reconcentrer sur notre objectif principal, documenter une attaque par dictionnaire d'un fichier zippé chiffré.                                              
 - Installation et utilisation de John The Ripper. Après plusieurs essais, nous nous sommes appuyés sur la documentation générale et notre curiosité pour mieux comprendre et aborder son utilisation.
 
 ## 6. Axes d'améliorations
@@ -74,7 +74,7 @@ Dans cette version 1 de nos livrables, nous nous sommes concentrés sur la docum
 
 ## 7. Conclusion
 
-Un mot de passe, pour protéger un fichier zip par exemple, est hashé par un algorithme plus ou moins puissant. MD5 par exemple, étant un algorithme de hashage plutôt faible, s'il est allié un mot de passe très simple, constitué de peu de caractères, nous permet de conclure qu'il sera découvert en clair par John The Ripper assez rapidemment.
+Un mot de passe, pour protéger un fichier zip par exemple, est hashé par un algorithme plus ou moins puissant. MD5 par exemple, étant un algorithme de hashage plutôt faible, s'il est allié à un mot de passe très simple, constitué de peu de caractères, nous permet de conclure qu'il sera découvert en clair par John The Ripper assez rapidemment.
 
 <P ALIGN="center"><IMG src="https://github.com/WildCodeSchool/TSSR-BDX-0924-P1-G1/blob/main/IMG_README/tableau_time.jpg" width=600></P>  
 
@@ -90,6 +90,8 @@ Assurez-vous que chaque mot de passe inclut une combinaison aléatoire de majusc
 La longueur d’un mot de passe est essentielle pour sa sécurité. Plus il est long, plus le nombre de combinaisons possibles augmente, rendant ainsi le piratage beaucoup plus difficile.
 3.	Utilisez des phrases de passe                                                  
 Pour créer et mémoriser des mots de passe longs, envisagez d’utiliser des phrases de passe, qui consistent en une suite de mots formant une phrase facile à retenir, mais difficile à deviner.
+4.	Renouvelez votre mot de passe régulièrement
+La fréquence idéale pour un bon niveau de sécurité est de une fois par mois.
 
 
 
