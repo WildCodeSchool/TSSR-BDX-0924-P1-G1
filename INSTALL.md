@@ -48,9 +48,7 @@ Deux machines:
    Supprimer l'ancien utilisateur  
                                                                        
             deluser ancien_utilisateur  
-
-4) Changer le mot de passe utilisateur  
-      
+  
 
 **Configuration poste serveur Windows :**  
 
@@ -64,15 +62,15 @@ Aller dans Panneau de configuration : Control panel ---> System and Security ---
           
   <P ALIGN="center"><IMG src="https://github.com/WildCodeSchool/TSSR-BDX-0924-P1-G1/blob/main/IMG_INSTALL/Capture%20d'%C3%A9cran%202024-10-16%20155218.png" width=600></P>              
   
-Dérouler l'onglet Local Users and Groups puis cliquez sur Users.                                   
+Dérouler l'onglet Local Users and Groups puis cliquer sur Users.                                   
 Clic droit sur le compte que vous souhaitez renommer puis cliquez sur **Rename**.                
 
   <P ALIGN="center"><IMG src="https://github.com/WildCodeSchool/TSSR-BDX-0924-P1-G1/blob/main/IMG_INSTALL/Capture%20d'%C3%A9cran%202024-10-17%20082657.png" width=600></P>
 
 3) Changer le mot de passe utilisateur                                           
 Aller dans Panneau de configuration : Control panel ---> System and Security ---> Administrative Tools ---> Computer Management
-Dérouler l'onglet Local Users and Groups puis cliquez sur Users.                                    
-Clic droit sur le compte concerné par le changement de mot de passe et cliquez sur **Set Password...**
+Dérouler l'onglet Local Users and Groups puis cliquer sur Users.                                    
+Clic droit sur le compte concerné par le changement de mot de passe et cliquer sur **Set Password...**
 
 <P ALIGN="center"><IMG src="https://github.com/WildCodeSchool/TSSR-BDX-0924-P1-G1/blob/main/IMG_INSTALL/Capture%20d'%C3%A9cran%202024-10-16%20161200.png" width=600></P>
 
@@ -80,8 +78,6 @@ Rentrer votre nouveau mot de passe puis cliquez sur OK.
 
 <P ALIGN="center"><IMG src="https://github.com/WildCodeSchool/TSSR-BDX-0924-P1-G1/blob/main/IMG_INSTALL/Capture%20d'%C3%A9cran%202024-10-16%20161409.png" width=600></P>
 
-
-### Lier serveur et client 
 
 
 
@@ -140,7 +136,7 @@ Puis ajoutez le fichier téléchargé à votre Dossier personnel.
 
 Réponse : Pour résoudre ce problème, suivez ces étapes :
 
-- Vérifiez si elles sont sur la même plage d'IP : Assurez-vous que les deux machines sont configurées avec des adresses IP dans la même plage. Vous pouvez le vérifier en exécutant ipconfig sous Windows ou ip a sous Ubuntu pour connaître leur adresse IP actuelle.                                  
+- Vérifiez si elles sont sur la même plage d'IP : Assurez-vous que les deux machines sont configurées avec des adresses IP dans la même plage. Vous pouvez le vérifier en exécutant `ipconfig` sous Windows ou `ip a` sous Ubuntu pour connaître leur adresse IP actuelle.                                  
 
 - Effectuez un test ping : Utilisez la commande ping suivi de l'adresse IP de l'autre machine pour vérifier s'il y a une réponse. Cela indique si les deux machines peuvent communiquer entre elles.
 
