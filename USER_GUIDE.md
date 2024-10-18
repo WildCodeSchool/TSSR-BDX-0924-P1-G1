@@ -34,11 +34,29 @@ Pour ensuite afficher le mot de passe il ne vous restera plus qu'à
 
 L'**attaque par dictionnaire** est simple et rapide mais elle présente un gros inconvénient : elle n'aboutira au mot de passe que si que si celui-ci est présent dans la liste qu'on lui a fourni.  
 Pour être certain d'aboutir à un résultat et donc de découvrir le mot de passe il existe une autre méthode qui consiste à utiliser toutes les combinaisons possibles de caractères. Cette méthode est appelée attaque en **"brute force"**. Cette methode est plus longue car elle essaie absolument toutes les combinaisons et pas seulement celles d'une liste, mais elle est aussi à l'inverse sûre d'aboutir.  
-Elle peut être cependant très longue, tellement que certaines fois il vous faudra la stopper à l'aide des commandes `CTRL` + `C`.
+Elle peut être cependant très longue, tellement que certaines fois il vous faudra la stopper à l'aide des commandes `CTRL` + `C`.  
+
+Pour lancer l'attaque en mode incrémental, entrez la commande suivante : 
+
+
+     john archive.zip
 
 
 ## 2. FAQ : Solutions aux problèmes connus et communs liés à l'utilisation
 
 ***Question : Après plusieurs minutes/heures, John The Ripper ne trouve toujours pas le mot de passe, comment faire ?***
 
-Réponse : Si l'attaque avec le dictionnaire RockYou ne fonctionne pas, il est toujours possible de télécharger une autre wordlist et relancer une attaque. John The Ripper dispose aussi de trois autres modes d'actions, le mode simple, le mode incrémental et le mode Markov. Vous trouverez les principes généraux de leur fonctionnement dans le README.md.
+Réponse : Si l'attaque avec le dictionnaire RockYou ne fonctionne pas, il est toujours possible de télécharger une autre wordlist et relancer une attaque. John The Ripper dispose aussi de trois autres modes d'actions, le mode simple, le mode incrémental et le mode Markov. Vous trouverez les principes généraux de leur fonctionnement dans le README.md. Encore une fois pour terminer un processus trop long de John, tapez `CTRL` + `C`.  
+
+***Question : Où trouver des dictionnaires (des Wordlists)?***  
+
+Vous trouverez une large gamme de wordlists dans [Github](https://github.com)  
+
+  
+  
+  
+
+
+
+
+  
