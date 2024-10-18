@@ -90,7 +90,7 @@ Assurez-vous que chaque mot de passe inclut une combinaison aléatoire de majusc
 La longueur d’un mot de passe est essentielle pour sa sécurité. Plus il est long, plus le nombre de combinaisons possibles augmente, rendant ainsi le piratage beaucoup plus difficile.
 3.	Utilisez des phrases de passe                                                  
 Pour créer et mémoriser des mots de passe longs, envisagez d’utiliser des phrases de passe, qui consistent en une suite de mots formant une phrase facile à retenir, mais difficile à deviner.
-4.	Renouvelez votre mot de passe régulièrement
+4.	Renouvelez votre mot de passe régulièrement  
 La fréquence idéale pour un bon niveau de sécurité est de une fois par mois.
 
 
