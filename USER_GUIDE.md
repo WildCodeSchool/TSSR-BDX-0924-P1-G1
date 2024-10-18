@@ -28,6 +28,8 @@ Une fois cette commande exécutée, il ne vous restera plus qu'à exécuter la c
 
 Cette commande peut mettre un certain temps à s'exécuter mais devrait aboutir si le mot de passe est bien dans le dictonnaire que l'on a fourni à John.  
 
+Pour ensuite afficher le mot de passe il ne vous restera plus qu'à 
+
 #### Autre méthode alternative, l'attaque en brute force  
 
   Cette méthode peut prendre un certain temps en fontion de la complexité du mot de passe, elle peut même prendre plusieurs jours. Si le processus est trp long vous porrez l'arrêter en utilisant `CTRL`+`C`
