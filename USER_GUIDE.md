@@ -3,11 +3,11 @@
 ## 1. Utilisation simple : comment effectuer une attaque pour tester la robustesse du mot de passe d'un fichier zippé chiffré sur un serveur  
 ### >- Localiser le fichier que l’on veut tester  
 D’abord vous allez devoir ouvrir le dossier contenant votre archive zip dans un terminal.
-Pour celà ouvrez l’explorateur de fichiers présents dans la barre de gauche de votre écran.  
+Pour celà, ouvrez l’explorateur de fichiers présent dans la barre de gauche de votre écran.  
 
 <P ALIGN="center"><IMG src="https://github.com/WildCodeSchool/TSSR-BDX-0924-P1-G1/blob/main/IMG_USERGUIDE/screen1.png" width=600></P>  
 
-Selectionnez le dossier qui contient le fameux fichier en faisant un clic droit dessus et selectionnez “Ouvrir dans un terminal”  
+Selectionnez le dossier qui contient le fameux fichier en faisant un clic droit dessus et sélectionnez “Ouvrir dans un terminal”.  
 
 <P ALIGN="center"><IMG src="https://github.com/WildCodeSchool/TSSR-BDX-0924-P1-G1/blob/main/IMG_USERGUIDE/screen2.png" width=600></P>   
 
@@ -15,12 +15,12 @@ Vous aurez alors un écran pour y saisir des commandes qui ressemble à ca :
 
 <P ALIGN="center"><IMG src="https://github.com/WildCodeSchool/TSSR-BDX-0924-P1-G1/blob/main/IMG_USERGUIDE/screen3.png" width=600></P>  
 
-Ensuite il ne vous restera plus qu'à taper les commandes suivantes :  
+Ensuite, il ne vous restera plus qu'à taper les commandes suivantes :  
 
     zip2john archive.zip > ZipHash.txt
       
-ici nous supposons que votre fichier s'appelle archive.zip, s'il s'agit d'un autre fichier il faudra bien entendu remplacer archive.zip par votre fichier.
-Le logiciel John The riper va alors sortir le Hash du mot de passe de ce fichier et c'est avec ce hash que nous essaierons de décrypter le mot de passe du fichier archive.  
+Ici nous supposons que votre fichier s'appelle archive.zip, s'il s'agit d'un autre fichier il faudra bien entendu remplacer archive.zip par votre fichier.
+Le logiciel John The Ripper va alors sortir le Hash du mot de passe de ce fichier et c'est avec ce hash que nous essaierons de décrypter le mot de passe du fichier archive.  
   
 Une fois cette commande exécutée, il ne vous restera plus qu'à exécuter la commande suivante :  
 
@@ -28,13 +28,12 @@ Une fois cette commande exécutée, il ne vous restera plus qu'à exécuter la c
 
 Cette commande peut mettre un certain temps à s'exécuter mais devrait aboutir si le mot de passe est bien dans le dictonnaire que l'on a fourni à John.  
 
-Pour ensuite afficher le mot de passe il ne vous restera plus qu'à 
 
-#### Autre méthode alternative, l'attaque en brute force  
+#### Autre méthode alternative, l'attaque en brute de force (mode incrémental)  
 
 L'**attaque par dictionnaire** est simple et rapide mais elle présente un gros inconvénient : elle n'aboutira au mot de passe que si que si celui-ci est présent dans la liste qu'on lui a fourni.  
-Pour être certain d'aboutir à un résultat et donc de découvrir le mot de passe il existe une autre méthode qui consiste à utiliser toutes les combinaisons possibles de caractères. Cette méthode est appelée attaque en **"brute force"**. Cette methode est plus longue car elle essaie absolument toutes les combinaisons et pas seulement celles d'une liste, mais elle est aussi à l'inverse sûre d'aboutir.  
-Elle peut être cependant très longue, tellement que certaines fois il vous faudra la stopper à l'aide des commandes `CTRL` + `C`.  
+Pour être certain d'aboutir à un résultat et donc de découvrir le mot de passe, il existe une autre méthode qui consiste à utiliser toutes les combinaisons possibles de caractères. Cette méthode est appelée attaque en **"brute de force"**. Cette méthode est plus longue car elle essaie absolument toutes les combinaisons et pas seulement celles d'une liste.
+Elle peut être cependant très longue, dans ce cas vous pourrez la stopper à l'aide des commandes `CTRL` + `C`.  
 
 Pour lancer l'attaque en mode incrémental, entrez la commande suivante : 
 
@@ -52,7 +51,6 @@ Réponse : Si l'attaque avec le dictionnaire RockYou ne fonctionne pas, il est t
 
 Vous trouverez une large gamme de wordlists dans [Github](https://github.com). Utiliser d'autres wordlists peut être intéressant car elles sont différentes en fonction de leur utilisation.  
 
-***Question : Où trouver des dictionnaires (des Wordlists)?*** 
 
   
   
