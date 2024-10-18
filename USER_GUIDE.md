@@ -50,7 +50,9 @@ Réponse : Si l'attaque avec le dictionnaire RockYou ne fonctionne pas, il est t
 
 ***Question : Où trouver des dictionnaires (des Wordlists)?***  
 
-Vous trouverez une large gamme de wordlists dans [Github](https://github.com)  
+Vous trouverez une large gamme de wordlists dans [Github](https://github.com). Utiliser d'autres wordlists peut être intéressant car elles sont différentes en fonction de leur utilisation.  
+
+***Question : Où trouver des dictionnaires (des Wordlists)?*** 
 
   
   
